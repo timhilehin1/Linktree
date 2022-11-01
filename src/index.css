@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+
+  box-sizing: border-box;
+  padding: 4rem 9rem 0 9rem;
+}
+
+code {
+  font-family: 'Inter', sans-serif;
+}
+
+.profile{
+  text-align: center;
+  width: 100%;
+  
+  
+}
+
+.links{
+  text-align: center;
+}
+
+.btn{
+  outline: none;
+  border: none;
+  background-color: #EAECF0;
+  width: 100%;  
+  padding: 1.5rem 2rem;
+}
+
+.btn:hover{
+  background-color: #D0D5DD;
+  color: black;
+}
+
+.footer{
+  border-top: 1px solid #EAECF0 ;
+}
+
+
+.profile-img{
+  width: 5.5rem;
+  height: 5.5rem;
+  cursor: pointer;
+ 
+ 
+}
+
+.image-cont{
+  height: 5.5rem;
+  width: 5.5rem;
+  border-radius: 30px;
+  border: none;
+  position: relative;
+  margin: auto;
+}
+
+.general{
+  text-align: center;
+}
+
+.float-end{
+  cursor: pointer;
+}
+
+
+.camera{
+  position: absolute;
+  top:4rem;
+  left: 30px;
+}
+
+
+.overlay{
+  background-color: #344054BF;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.overlay:hover{
+  opacity: 0.7;
+}
+
+
+
+.cssdottedborder{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px dotted #D0D5DD;
+  
+}
+
+
+@media only screen and (max-width: 992px) {
+body{
+  padding: .5rem;
+}
+
+.cssdottedborder{
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px dotted #D0D5DD;
+  
+}
+
+
+}
