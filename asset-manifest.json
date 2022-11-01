@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Linktree/static/css/main.a8d4ad60.css",
+    "main.js": "/Linktree/static/js/main.44bed42c.js",
+    "static/media/angela.png": "/Linktree/static/media/angela.55746a2c37fecc1488c7.png",
+    "index.html": "/Linktree/index.html",
+    "main.a8d4ad60.css.map": "/Linktree/static/css/main.a8d4ad60.css.map",
+    "main.44bed42c.js.map": "/Linktree/static/js/main.44bed42c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8d4ad60.css",
+    "static/js/main.44bed42c.js"
+  ]
+}
