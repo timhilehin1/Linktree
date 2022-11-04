@@ -126,6 +126,10 @@ code {
   color: #F83F23;
 }
 
+input[type='checkbox'] {
+  accent-color: white;
+}
+
 
 
 
