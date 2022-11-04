@@ -99,6 +99,42 @@ code {
   
 }
 
+.contact{
+  /* border: 1px solid black; */
+  width: 720px;
+  /* height: 70vh; */
+  
+}
+
+.outer-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+  /* text-align: center; */
+}
+
+#btn__submit{
+  border: none;
+  color: #FFFFFF;
+  background-color: #1570EF;
+  border-radius: .5rem;
+  padding: 0.75rem 1.25rem;
+}
+
+.error{
+  color: #F83F23;
+}
+
+
+
+
+@media only screen and (min-width: 1200px) {
+  .Firstandlast{
+    width: 348px;
+  }
+}
+
 
 @media only screen and (max-width: 992px) {
 body{
@@ -111,6 +147,10 @@ body{
   border-radius: 50%;
   border: 3px dotted #D0D5DD;
   
+}
+
+.Firstandlast{
+  width: 100%;
 }
 
 

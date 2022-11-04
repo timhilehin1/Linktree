@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Links(){
 
@@ -25,9 +26,16 @@ function Links(){
         <a  id="pitch" title="Background Check for Coders" href="https://background.zuri.team"><button className="btn">Backround Check for Coders</button></a>
         </div>
 
+       
+        
         <div className="container-fluid mt-3">
-        <a id="book__design" title="Zuri provides a free design book" href="https://books.zuri.team/design-rules"><button  className="btn">Design Books</button></a>
+        <a id="contact" title="Zuri provides a free design book" href="https://books.zuri.team/design-rules"><button  className="btn">Design Books</button></a>
         </div>
+
+        <div className="container-fluid mt-3">
+       <Link to="/Contact"><a id="book__design"  href="/Contact"><button  className="btn">Contact Me</button></a></Link> 
+        </div>
+
 
         <div className="container-fluid d-flex justify-content-center gap-4 mt-3">
         <img className="img-fluid"  src={require('./slack.png')} ></img>
